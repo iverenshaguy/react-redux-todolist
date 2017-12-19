@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTodo mounts correctly 1`] = `
+<AddTodo
+  buttonText="Add Todo"
+>
+  <div
+    className="AddTodo"
+  >
+    <form
+      className="form-inline my-2 my-lg-0"
+      onSubmit={[Function]}
+    >
+      <input
+        autoFocus={true}
+        className="form-control mr-sm-2 new-todo"
+        name="todoinput"
+        onChange={[Function]}
+        placeholder="Enter Todo"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn btn-primary my-2 my-sm-0"
+        type="submit"
+      >
+        Add Todo
+      </button>
+    </form>
+  </div>
+</AddTodo>
+`;
+
+exports[`AddTodo renders correctly 1`] = `
+<div
+  className="AddTodo"
+>
+  <form
+    className="form-inline my-2 my-lg-0"
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      className="form-control mr-sm-2 new-todo"
+      name="todoinput"
+      onChange={[Function]}
+      placeholder="Enter Todo"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-primary my-2 my-sm-0"
+      type="submit"
+    >
+      Add Todo
+    </button>
+  </form>
+</div>
+`;
+
+exports[`AddTodo responds to todo change 1`] = `
+<AddTodo
+  buttonText="Add Todo"
+>
+  <div
+    className="AddTodo"
+  >
+    <form
+      className="form-inline my-2 my-lg-0"
+      onSubmit={[Function]}
+    >
+      <input
+        autoFocus={true}
+        className="form-control mr-sm-2 new-todo"
+        name="todoinput"
+        onChange={[Function]}
+        placeholder="Enter Todo"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn btn-primary my-2 my-sm-0"
+        type="submit"
+      >
+        Add Todo
+      </button>
+    </form>
+  </div>
+</AddTodo>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoStatus mounts correctly 1`] = `
+<TodoStatus
+  onClick={[Function]}
+  todo={
+    Object {
+      "completed": false,
+      "id": 2,
+      "title": " Who will be easy for those services ",
+    }
+  }
+>
+  <Button
+    btnClass="btn btn-outline-primary"
+    buttonText="Mark as Done"
+    buttonType="button"
+    onClick={[Function]}
+  >
+    <button
+      className="btn btn-outline-primary"
+      onClick={[Function]}
+      type="button"
+    >
+      Mark as Done
+    </button>
+  </Button>
+</TodoStatus>
+`;
+
+exports[`TodoStatus renders correctly 1`] = `
+<Button
+  btnClass="btn btn-outline-primary"
+  buttonText="Mark as Done"
+  buttonType="button"
+  onClick={[Function]}
+/>
+`;

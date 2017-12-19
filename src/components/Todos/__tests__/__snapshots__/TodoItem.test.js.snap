@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoItem mounts correctly 1`] = `
+<TodoItem
+  onDelete={[Function]}
+  onEdit={[Function]}
+  todo={
+    Object {
+      "completed": true,
+      "id": 1,
+      "title": " Levies and I ",
+    }
+  }
+>
+  <div
+    className="TodoItem"
+  >
+    <div
+      className="card border-primary"
+    >
+      <div
+        className="card-body"
+      >
+        <DeleteTodo
+          onClick={[Function]}
+        >
+          <Button
+            btnClass="close"
+            buttonText="×"
+            buttonType="button"
+            onClick={[Function]}
+          >
+            <button
+              className="close"
+              onClick={[Function]}
+              type="button"
+            >
+              ×
+            </button>
+          </Button>
+        </DeleteTodo>
+        <blockquote
+          className="card-blockquote"
+        >
+          <p
+            className="show"
+          >
+             Levies and I 
+              
+            <span
+              className="badge badge-primary"
+            >
+              Completed
+            </span>
+          </p>
+          <div
+            className="hide"
+          >
+            <AddTodo
+              buttonText="Update Todo"
+              editTodo={[Function]}
+              todo={
+                Object {
+                  "completed": true,
+                  "id": 1,
+                  "title": " Levies and I ",
+                }
+              }
+            >
+              <div
+                className="AddTodo"
+              >
+                <form
+                  className="form-inline my-2 my-lg-0"
+                  onSubmit={[Function]}
+                >
+                  <input
+                    autoFocus={true}
+                    className="form-control mr-sm-2 new-todo"
+                    name="todoinput"
+                    onChange={[Function]}
+                    placeholder="Enter Todo"
+                    type="text"
+                    value=""
+                  />
+                  <button
+                    className="btn btn-primary my-2 my-sm-0"
+                    type="submit"
+                  >
+                    Update Todo
+                  </button>
+                </form>
+              </div>
+            </AddTodo>
+          </div>
+          <br />
+          <footer>
+            <EditTodo
+              onClick={[Function]}
+            >
+              <Button
+                btnClass="btn btn-outline-primary"
+                buttonText="Edit Todo"
+                buttonType="button"
+                onClick={[Function]}
+              >
+                <button
+                  className="btn btn-outline-primary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Edit Todo
+                </button>
+              </Button>
+            </EditTodo>
+              
+            <TodoStatus
+              onClick={[Function]}
+              todo={
+                Object {
+                  "completed": true,
+                  "id": 1,
+                  "title": " Levies and I ",
+                }
+              }
+            >
+              <Button
+                btnClass="btn btn-outline-primary"
+                buttonText="Mark as Undone"
+                buttonType="button"
+                onClick={[Function]}
+              >
+                <button
+                  className="btn btn-outline-primary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Mark as Undone
+                </button>
+              </Button>
+            </TodoStatus>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+    <br />
+  </div>
+</TodoItem>
+`;
+
+exports[`TodoItem renders correctly 1`] = `
+<div
+  className="TodoItem"
+>
+  <div
+    className="card border-primary"
+  >
+    <div
+      className="card-body"
+    >
+      <DeleteTodo
+        onClick={[Function]}
+      />
+      <blockquote
+        className="card-blockquote"
+      >
+        <p
+          className="show"
+        >
+           Levies and I 
+            
+          <span
+            className="badge badge-primary"
+          >
+            Completed
+          </span>
+        </p>
+        <div
+          className="hide"
+        >
+          <AddTodo
+            buttonText="Update Todo"
+            editTodo={[Function]}
+            todo={
+              Object {
+                "completed": true,
+                "id": 1,
+                "title": " Levies and I ",
+              }
+            }
+          />
+        </div>
+        <br />
+        <footer>
+          <EditTodo
+            onClick={[Function]}
+          />
+            
+          <TodoStatus
+            onClick={[Function]}
+            todo={
+              Object {
+                "completed": true,
+                "id": 1,
+                "title": " Levies and I ",
+              }
+            }
+          />
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+  <br />
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteTodo mounts correctly 1`] = `
+<DeleteTodo
+  onClick={[Function]}
+>
+  <Button
+    btnClass="close"
+    buttonText="×"
+    buttonType="button"
+    onClick={[Function]}
+  >
+    <button
+      className="close"
+      onClick={[Function]}
+      type="button"
+    >
+      ×
+    </button>
+  </Button>
+</DeleteTodo>
+`;
+
+exports[`DeleteTodo renders correctly 1`] = `
+<Button
+  btnClass="close"
+  buttonText="×"
+  buttonType="button"
+  onClick={[Function]}
+/>
+`;

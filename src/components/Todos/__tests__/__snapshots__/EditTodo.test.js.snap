@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditTodo mounts correctly 1`] = `
+<EditTodo
+  onClick={[Function]}
+>
+  <Button
+    btnClass="btn btn-outline-primary"
+    buttonText="Edit Todo"
+    buttonType="button"
+    onClick={[Function]}
+  >
+    <button
+      className="btn btn-outline-primary"
+      onClick={[Function]}
+      type="button"
+    >
+      Edit Todo
+    </button>
+  </Button>
+</EditTodo>
+`;
+
+exports[`EditTodo renders correctly 1`] = `
+<Button
+  btnClass="btn btn-outline-primary"
+  buttonText="Edit Todo"
+  buttonType="button"
+  onClick={[Function]}
+/>
+`;

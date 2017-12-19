@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todos mounts correctly 1`] = `
+<Todos
+  api={
+    Object {
+      "createTodo": [Function],
+      "deleteTodo": [Function],
+      "getTodos": [Function],
+      "updateTodo": [Function],
+    }
+  }
+>
+  <div
+    className="Todos"
+  >
+    <div
+      className="header"
+    >
+      <h1>
+        Todos
+      </h1>
+      <br />
+      <h3>
+        Add Todo Item
+      </h3>
+      <AddTodo
+        addTodo={[Function]}
+        buttonText="Add Todo"
+        todos={Array []}
+      >
+        <div
+          className="AddTodo"
+        >
+          <form
+            className="form-inline my-2 my-lg-0"
+            onSubmit={[Function]}
+          >
+            <input
+              autoFocus={true}
+              className="form-control mr-sm-2 new-todo"
+              name="todoinput"
+              onChange={[Function]}
+              placeholder="Enter Todo"
+              type="text"
+              value=""
+            />
+            <button
+              className="btn btn-primary my-2 my-sm-0"
+              type="submit"
+            >
+              Add Todo
+            </button>
+          </form>
+        </div>
+      </AddTodo>
+      <hr />
+      <h3>
+        Todos (
+        0
+        )
+      </h3>
+      <hr />
+      <Button
+        btnClass="btn show-all-btn btn-primary"
+        buttonText="All"
+        onClick={[Function]}
+      >
+        <button
+          className="btn show-all-btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          All
+        </button>
+      </Button>
+        
+      <Button
+        btnClass="btn show-uncompleted-btn btn-outline-primary"
+        buttonText="Uncompleted"
+        onClick={[Function]}
+      >
+        <button
+          className="btn show-uncompleted-btn btn-outline-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Uncompleted
+        </button>
+      </Button>
+        
+      <Button
+        btnClass="btn show-completed-btn btn-outline-primary"
+        buttonText="Completed"
+        onClick={[Function]}
+      >
+        <button
+          className="btn show-completed-btn btn-outline-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Completed
+        </button>
+      </Button>
+        
+    </div>
+    <hr />
+    <div
+      className="todolist"
+    >
+      <p>
+        You don't have any todos yet. Add a Todo
+      </p>
+    </div>
+    <br />
+  </div>
+</Todos>
+`;
+
+exports[`Todos renders correctly 1`] = `
+<div
+  className="Todos"
+>
+  <div
+    className="header"
+  >
+    <h1>
+      Todos
+    </h1>
+    <br />
+    <h3>
+      Add Todo Item
+    </h3>
+    <AddTodo
+      addTodo={[Function]}
+      buttonText="Add Todo"
+      todos={Array []}
+    />
+    <hr />
+    <h3>
+      Todos (
+      0
+      )
+    </h3>
+    <hr />
+    <Button
+      btnClass="btn show-all-btn btn-primary"
+      buttonText="All"
+      onClick={[Function]}
+    />
+      
+    <Button
+      btnClass="btn show-uncompleted-btn btn-outline-primary"
+      buttonText="Uncompleted"
+      onClick={[Function]}
+    />
+      
+    <Button
+      btnClass="btn show-completed-btn btn-outline-primary"
+      buttonText="Completed"
+      onClick={[Function]}
+    />
+      
+  </div>
+  <hr />
+  <div
+    className="todolist"
+  >
+    <p>
+      You don't have any todos yet. Add a Todo
+    </p>
+  </div>
+  <br />
+</div>
+`;
