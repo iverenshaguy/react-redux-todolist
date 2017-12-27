@@ -8,7 +8,7 @@ const Button = props => {
       className={props.btnClass || 'btn btn-primary'}
       onClick={() => props.onClick()}
     >
-      {props.buttonText}
+      {props.buttonText || props.children}
     </button>
   );
 };

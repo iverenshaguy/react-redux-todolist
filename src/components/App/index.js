@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Todos from '../Todos';
-import todosApi from '../../helpers/api/todos.api';
+import TodoApp from '../Todos';
+// import todosApi from '../../helpers/api/todos.api';
 
-const App = () => (
+const App = props => (
   <div>
-    <Todos api={todosApi} />
+    <TodoApp filter={props.match.params.filter || 'all'} {...props} />
   </div>
 );
 
